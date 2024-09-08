@@ -37,7 +37,7 @@ export default function Footer2() {
   return (
     <div className="container2">
         <footer className="footer2">
-            <p className="looping-text">Hardworking, Kind, Humble, Punctual, Movie and Music buff...</p>
+            <p className="looping-text">Movie and Music buff, Kind, Humble, Punctual, Hardworking ...</p>
         </footer>
 
 

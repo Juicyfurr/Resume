@@ -1,9 +1,9 @@
 @keyframes loopText {
     0% {
-      transform: translateX(-200%);
+      transform: translateX(-120%);
     }
     100% {
-      transform: translateX(135%);
+      transform: translateX(120%);
     }
   }
   

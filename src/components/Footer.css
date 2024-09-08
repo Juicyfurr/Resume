@@ -10,14 +10,14 @@
   .footer {
     text-align: center;
     background-color: #0087e0;
-    padding: 0px 0;
+    /* padding: 0px 0; */
     overflow: hidden;
   }
   
   .blinking-text {
-    animation: blink 1s infinite;
+    animation: blink 2s infinite;
     color: white;
-    font-size:larger;
+    font-size: 130%;
   }
 
   .container {

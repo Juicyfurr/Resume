@@ -1,7 +1,7 @@
 
 .containers{
     width: fit-content;
-    height: 100%;
+    height: fit-content;
     left: 0%;
 }
 
@@ -10,7 +10,7 @@
 
 .tab-view {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 auto;
     /* color: #ffffff; */
     /* margin-left: 10px; */
@@ -58,16 +58,22 @@
     margin-left: 71px;
     margin-top: -9px;
     overflow: scroll;
-
-
 }
 
-.container0 {
+.intro {
+    margin-top: -70px;
+}
+
+.Designation {
+    margin-top: 50px;
+}
+
+/* .container0 {
     border: 4px;
     border-color: #ffffff;
     font-size: large;
-    height: 50px;
-}
+    height: 40px;
+} */
 
 div h1 {
     color: #c7c7c7cd;
@@ -89,6 +95,7 @@ p1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     margin-left: 10px;
+    top: -10px;
 }
 
 .image7{
@@ -96,12 +103,12 @@ p1 {
     height: 300px;
     border-radius: 100%;
     overflow: hidden;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 45px;
 }
 
 .Summary{
-    margin-left: 500px;
+    margin-left: 550px;
     margin-top: -400px;
 }
 div h3{
@@ -118,15 +125,16 @@ div p4{
 }
 
 .DOB{
-    font-size: large;
+    font-size: larger;
     color: rgb(0, 128, 0);
     margin-left: 10px;
     
 }    
 .box {
-    margin-top: 210px;
+    margin-top: 150px;
     margin-left: 470px;
     color: rgba(255, 255, 255, 0.548);
+
 }
 
 .skills {

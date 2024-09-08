@@ -41,7 +41,7 @@ const TabView = () => {
         {activeTab === 1 && 
         <div className='intro'>
             <h1>Rajat Jha</h1>
-            <p1>Senior Systems Engineer <span style={{ color: '#e79a00', fontSize:'large'}}>(2.6 yrs)</span></p1>
+            <div><p1 className="Designation">Technology Analyst <span style={{ color: '#e79a00', fontSize:'larger'}}>(3.6 yrs)</span></p1></div>
             <div><p5 className="DOB">(Born, the year iMac was introduced.11/02/1998)</p5></div>
             <div><img className="image7" src={img7} alt="" /></div> 
             <div className='Summary'>
@@ -139,26 +139,26 @@ const TabView = () => {
                 <p><span style={{ color: 'rgb(0, 128, 0)'}}>A.</span> <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span> <br /></p>
                     <p><span style={{ color: '#e79a00'}}>Graduation: <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></span></p>
                     <p>B.Tech in Electronics and Communication Engineering <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p> 
-                    <p>S.R.M Institute of Science and Technology, Kattankolathur, Tamil Nadu <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p> 
+                    <p>S.R.M Institute of Science and Technology, Kattankulathur, Tamil Nadu <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p> 
                     <p>Finished with 76 % <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
-                    <p>Outstanding Achievements : “O” Grade in Japanese Language <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
+                    <p><span style={{ color: '#e79a00'}}>Outstanding Achievements:</span> “O” Grade in Japanese Language <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                 </div> <br />
 
                 <div className='two' style={{ lineHeight: '1', textIndent: '30px', fontSize: '25px' }}>
                 <p><span style={{ color: 'rgb(0, 128, 0)'}}>B.</span> <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span> <br /></p>
-                    <p><span style={{ color: '#e79a00'}}>12th Grade : <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></span></p> 
+                    <p><span style={{ color: '#e79a00'}}>12th Grade: <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></span></p> 
                     <p>Sunbeam English School, Bhagwanpur, Varanasi <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                     <p>CBSE Pattern. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
-                    <p>Outstanding Achievements : Secured 95% and 92% in Chemistry and Physics respectively. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
+                    <p><span style={{ color: '#e79a00'}}>Outstanding Achievements:</span> Secured 95% and 92% in Chemistry and Physics respectively. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                     <p>Was an active participant of School Assembly and Events. Appreciated Orator. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                 </div> <br />
 
                 <div className='two' style={{ lineHeight: '1', textIndent: '30px', fontSize: '25px' }}>
                 <p><span style={{ color: 'rgb(0, 128, 0)'}}>C.</span> <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span> <br /></p>
-                    <p><span style={{ color: '#e79a00'}}>10th Grade : <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></span></p> 
+                    <p><span style={{ color: '#e79a00'}}>10th Grade: <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></span></p> 
                     <p>Sunbeam English School, Bhagwanpur, Varanasi <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                     <p>CBSE Pattern. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
-                    <p>Outstanding Achievements : Secured 9.0 CGPA and 9.0 GPA in all the subjects alike. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
+                    <p><span style={{ color: '#e79a00'}}>Outstanding Achievements:</span> Secured 9.0 CGPA and 9.0 GPA in all the subjects alike. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                     <p>Was an active participant of School Assembly and Events. Appreciated Orator. <span style={{ color: '#0087e0' }}>&lt;br/&gt;</span><br /></p>
                 </div>
                 <div className='para'>&lt;/p&gt;</div>
